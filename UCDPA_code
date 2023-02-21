@@ -1,0 +1,103 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOPjQZiV5byqwIVTA+OiuJj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ConorSaund/UCDPA_conorsaunders/blob/main/UCDPA_code\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 5,
+      "metadata": {
+        "id": "bacSi1GTP32h"
+      },
+      "outputs": [],
+      "source": [
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "url = 'https://raw.githubusercontent.com/ConorSaund/UCDPA_conorsaunders/main/Sleep_Efficiency.csv'\n",
+        "df = pd.read_csv(url)"
+      ],
+      "metadata": {
+        "id": "dBlOEOM2QTTs"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "df.head()"
+      ],
+      "metadata": {
+        "id": "xHt7bhTcQWl0"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "df.isnull().sum()"
+      ],
+      "metadata": {
+        "id": "NirZXMOrRg7_"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Definition of REM/ Deep Sleep/ Light Sleep"
+      ],
+      "metadata": {
+        "id": "rGl8j0caSouT"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Visualisation\n",
+        "1.   Population distribution\n",
+        "2.   Number of smokers\n",
+        "3.   Smoking and sleep relationship\n",
+        "3.   Number of drinkers\n",
+        "4.   Drinking and sleep relationship\n",
+        "5.   Does number of wake ups affect type of sleep?\n",
+        "6.   Does the time of sleep affect the type of sleep?\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "TYbvBxLoS8Mf"
+      }
+    }
+  ]
+}
