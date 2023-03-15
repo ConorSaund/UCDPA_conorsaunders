@@ -1,16 +1,17 @@
-Project Report: Analysis of Airbnb pricing amongst ten european cities
-
+Project Report
 GitHub URL
 https://github.com/ConorSaund/UCDPA_conorsaunders
 
 Abstract
-(Short overview of the entire project and features)
+In this project, the analysis was of pricing of Airbnb listings in ten European capital cities. The dataset consisted of twenty files, including weekday and weekend data for each city. The aim was to gain insights into the factors affecting the pricing of Airbnb listings in these cities.
 
 Introduction
-I thought that this set of data was ideal as it allowed for manipulation of the datasets and working with large datasets. It is not your typical type of data and forces you to think outside of the box when trying to calculate your insights.
+The various attributes in the dataset, such as pricing, satisfaction levels, and location to a metro, provide a rich source of information that can be used to extract insights. Working with this dataset requires creative thinking and the application of various analytical techniques to derive meaningful results. We all know the reasons that causes rental spaces to increase their pricing, it is interesting to try to prove it with certain factors.
 
 Dataset
-The dataset used was of Airbnb pricing in ten European capital cities. The attributes used in the data sets were room types, cleanliness, distance from the city center to name a few. The data sets consist of weekday data and weekend data for the ten cities, leading to twenty files to work with. 
+The dataset used was of Airbnb pricing in ten European capital cities. The attributes used in the data sets were room types, cleanliness, distance from the city center to name a few. The data sets consist of weekday data and weekend data for the ten cities, leading to twenty files to work with. There were approximately 51700 observations of non-null entries.
+
+The dataset was chosen as it provides an interesting opportunity to analyse the Airbnb market in some of the most popular European tourist destinations. The dataset was also accredited by the National Science centre in Poland under project 2017/27/N/HS4/00951. By examining the pricing trends and characteristics of Airbnb listings in these cities we can gain insights into the broader tourism sector, and with further analysis it could be used to identity futures areas of growth. 
 
 Implementation Process
 (Describe your entire process in detail)
